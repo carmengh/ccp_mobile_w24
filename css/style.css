@@ -1,6 +1,18 @@
+body nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    font-size: x-large;
+}
+
+body main h1{
+    text-align: center;
+    font-size: large;
+}
+
 .bacon-photos{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .hide-skip{

@@ -3,6 +3,9 @@ body nav ul{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
     font-size: x-large;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 body main h1{

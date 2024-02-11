@@ -116,11 +116,31 @@ h3{
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 550px;
-    border: 3px solid black;
+    border: 3px solid rgb(255, 174, 22);
     border-radius: 10px;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#chako-photos{
+    border: 3px solid rgb(55, 55, 253);
+}
+
+#juno-photos{
+    border: 3px solid rgb(174, 1, 174);
+}
+
+#rocket-photos{
+    border: 3px solid rgb(163, 0, 0);
+}
+
+#sage-photos{
+    border: 3px solid rgb(119, 119, 0);
+}
+
+#pluto-photos{
+    border: 3px solid rgb(0, 99, 0);
 }
 
 #chako-img-right{

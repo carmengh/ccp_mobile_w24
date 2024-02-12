@@ -108,7 +108,7 @@ h3{
 }
 
 #img-right{
-    grid-row: 1/4;
+    grid-row: 1/3;
     grid-column-start: 2;
 }
 
@@ -121,7 +121,7 @@ h3{
 }
 
 #img-left {
-    grid-row: 1/4;
+    grid-row: 1/3;
     grid-column-start: 1;
 }
 
@@ -251,6 +251,7 @@ li{
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
+    font-size: small;
 }
 
 .place-intro p{
@@ -290,10 +291,32 @@ li{
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
+    margin: 5px;
 }
 
 @media (prefers-reduced-motion) {
     .gif{
         display: none;
     }
+}
+
+#p1{
+    grid-column: 1/3;
+    grid-row-start: 3;
+}
+
+#p2{
+    padding-top: 10px;
+    grid-column: 1/3;
+    grid-row-start: 4;
+}
+
+.dog-header-left{
+    grid-column-start: 1;
+    grid-row: 1/3;
+}
+
+.dog-header-right{
+    grid-column-start: 2;
+    grid-row: 1/3;
 }

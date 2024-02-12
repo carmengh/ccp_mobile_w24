@@ -291,3 +291,9 @@ li{
     grid-template-columns: 1fr;
     text-align: center;
 }
+
+@media (prefers-reduced-motion) {
+    .gif{
+        display: none;
+    }
+}

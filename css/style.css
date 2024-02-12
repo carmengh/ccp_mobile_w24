@@ -41,6 +41,8 @@ body nav ul li a{
 
 .activePage{
     background-color: #8e8e8e;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 h1{
@@ -196,10 +198,6 @@ strong {
     padding-bottom: 10px;
 }
 
-.recipe-source{
-    color: black;
-}
-
 .container{
     border: 1px solid black;
     border-radius: 10px;
@@ -237,4 +235,59 @@ strong {
 
 li{
     padding: 3px;
+}
+
+#start{
+    margin-top: 0px;
+}
+
+.place {
+    border: 2px dotted black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.place-intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.place-intro p{
+    padding: 10px;
+}
+
+#top-left{
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+#bot-left{
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.chiang-photo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+#chiang-right{
+    grid-column: 3;
+    grid-row: 1/3;
+}
+
+.photo-place{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.home{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
 }
